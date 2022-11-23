@@ -84,7 +84,7 @@
 2. プロジェクトの作成
 
 ```
-docker-compose run
+docker-compose run --rm front sh -c "npx create-react-app app"
 ```
 
 3. コンテナの起動
